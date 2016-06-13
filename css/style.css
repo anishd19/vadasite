@@ -1,8 +1,13 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
 .navbar, footer {
 	background-color: #383838;
 }
 
-.navbar a.navbar-brand,.navbar .nav li a, a{
+.navbar a.navbar-brand,.navbar .nav li a{
 	color: white;
 	text-shadow: 2px 2px red;
 	text-decoration: none;
@@ -66,13 +71,18 @@ li{
 	display: inline;
 }
 
-#social img{
+#social img {
 	width: 40px;
 }
 
-#social img:hover{
+#social img:hover {
 	width: 50px;
 }
+
+textarea {
+	margin-bottom: 20px;
+}
+
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
