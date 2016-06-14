@@ -12,7 +12,6 @@
 	<div class="container" id="main">
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
@@ -21,9 +20,8 @@
 					<span class="icon-bar"></span>
 				  </button>
 				  <a class="navbar-brand" href="#">THE VADA</a>
-				</div>
+				</div><!-- end navbar-header --->
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav navbar-right">
 					<li><a href="#">medu</a></li>
@@ -31,21 +29,18 @@
 					<li><a href="#">bonda</a></li>
 					<li><a href="#">about</a></li>
 				  </ul>
-				  
-				</div> 
-			</div><!-- /.container-fluid -->
+				</div><!-- end navbar-collapse -->
+			</div><!-- end container-fluid -->
 		</nav>
 		
 		<div class="carousel slide" id="myCarousel">
 
-			<!-- Indicators -->
 			<ol class="carousel-indicators">
 				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
 				<li data-slide-to="1" data-target="#myCarousel"></li>
 				<li data-slide-to="2" data-target="#myCarousel"></li>
 			</ol>
 
-			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
 				<div class="item active" id="slide1">
 					<img src="images/hero_vada.jpg" alt="hero_vada">
@@ -68,9 +63,8 @@
 					</div><!-- end carousel-caption-->
 				</div><!-- end item -->
 				
-			</div><!-- carousel-inner -->
+			</div><!-- end carousel-inner -->
 
-			<!-- Controls -->
 			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
 			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
 
@@ -88,8 +82,8 @@
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					
-				</div>
-			</div>
+				</div><!-- end panel -->
+			</div><!-- end col-sm-4 -->
 			<div class="col-sm-4">
 				<div class="panel">
 					<img src="images/two.jpg" alt="one" class="img-circle">
@@ -101,8 +95,8 @@
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					
-				</div>
-			</div>
+				</div><!-- end panel -->
+			</div><!-- end col-sm-4 -->
 			<div class="col-sm-4">
 				<div class="panel">
 					<img src="images/three.jpg" alt="one" class="img-circle">
@@ -114,100 +108,106 @@
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					
-				</div>
-			</div>
-		</div>
+				</div><!-- end panel -->
+			</div><!-- end col-sm-4 -->
+		</div><!-- end row -->
 		
 		<hr>
 		
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-sm-6" id="buzz">
 				<div class="tabbable">
 					<ul class="nav nav-tabs">
-						<li><a href="#tab1" data-toggle="tab">Twitter</a></li>
-						<li class="active"><a href="#tab2" data-toggle="tab">Pinterest</a></li>
+						<li class="active"><a href="#tab1" data-toggle="tab">Twitter</a></li>
+						<li><a href="#tab2" data-toggle="tab">Pinterest</a></li>
 					</ul>
 					<div class="tab-content">
-						<div class="tab-pane" id="tab1">
-							<a class="twitter-timeline"  href="https://twitter.com/hashtag/vada" data-widget-id="742338037128925186"></a>
+						<div class="tab-pane active" id="tab1">
+							<a class="twitter-timeline embed"  href="https://twitter.com/hashtag/vada" data-widget-id="742338037128925186"></a>
 						</div><!-- end tab-pane -->
-						<div class="tab-pane active" id="tab2">
-							<a data-pin-do="embedBoard" data-pin-scale-height="500" data-pin-scale-width="80" href="https://www.pinterest.com/jyothigandhi/vada/"></a>
+						<div class="tab-pane" id="tab2">
+							<a class="embed" data-pin-do="embedBoard" data-pin-scale-height="490" href="https://in.pinterest.com/jyothigandhi/vada/"></a>
 						</div><!-- end tab-pane -->
-					</div>
-				</div>
-			</div>
+					</div><!-- end tab-content -->
+				</div><!-- end tabbable -->
+			</div><!-- end col-sm-6 -->
 			<div class="col-sm-6">
-			<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location</h4>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62241.306124548675!2d77.63917813191398!3d12.838001318267292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c8a7750e1c3%3A0x4a5cfc0fce5af71d!2sElectronic+City%2C+Bengaluru%2C+Karnataka+560100!5e0!3m2!1sen!2sin!4v1465735331571" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-			
-			<hr>
-			
-			<h3> Click the below link to register for free sample of vadas at our stall in the food festival next week at the above location.</h3>
-			
-			<a href="#myModal" role="button" class="btn btn-warning btn-lg btn-block" data-toggle="modal"><span class="glyphicon glyphicon-shopping-cart"></span> Register Now!</a>
-			
-			<hr>
-			
-			<div class="modal fade" id="myModal">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button class="close" data-dismiss="modal">&times;</button>
+				<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location</h4>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62241.306124548675!2d77.63917813191398!3d12.838001318267292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c8a7750e1c3%3A0x4a5cfc0fce5af71d!2sElectronic+City%2C+Bengaluru%2C+Karnataka+560100!5e0!3m2!1sen!2sin!4v1465735331571" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				
+				<hr>
+				
+				<p> Click the below link to register for free sample of vadas at our stall in the food festival next week at the above location.</p>
+				
+				<a href="#myModal" role="button" class="btn btn-warning btn-lg btn-block" data-toggle="modal"><span class="glyphicon glyphicon-shopping-cart"></span> Register Now!</a>
+				
+				<div class="visible-xs">
+					<a class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-phone"></span> Call Us</a>
+				</div><!-- end visible-xs -->
+				
+				<div class="well hidden-xs">
+					<p class="lead">Call Us at <span>999333222</span></p>
+				</div><!-- end well -->
+				
+				<div class="modal fade" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times;</button>
 
-							<h4 class="modal-title">Registration form</h4>
-						</div><!-- end modal-header -->
-						<div class="modal-body">
-							<form class="form-horizontal">
-								<div class="form-group">
-									<label class="col-lg-2 control-label" for="inputName">Name</label>
-									<div class="col-lg-10">
-										<input class="form-control" id="inputName" placeholder="Name" type="text">
+								<h4 class="modal-title">Registration form</h4>
+							</div><!-- end modal-header -->
+							<div class="modal-body">
+								<form class="form-horizontal">
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputName">Name</label>
+										<div class="col-lg-10">
+											<input class="form-control" id="inputName" placeholder="Name" type="text">
+										</div>
 									</div>
-								</div>
 
-								<div class="form-group">
-									<label class="col-lg-2 control-label" for="inputEmail">Email</label>
-									<div class="col-lg-10">
-										<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+										<div class="col-lg-10">
+											<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+										</div>
 									</div>
-								</div>
 
-								<div class="form-group">
-									<label class="col-lg-2 control-label" for="inputMessage">Message</label>
-									<div class="col-lg-10">
-										<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
-										<button class="btn btn-success pull-right" type="submit">Send!</button>
+									<div class="form-group">
+										<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+										<div class="col-lg-10">
+											<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+											<button class="btn btn-success pull-right" type="submit">Send!</button>
+										</div>
 									</div>
-								</div>
-							</form>
-						</div><!-- end modal-body -->
+								</form>
+							</div><!-- end modal-body -->
 
-						<div class="modal-footer">
-							<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
-							<button class="btn btn-primary" type="button">Save changes</button>
-						</div><!-- end modal-footer -->
-					</div><!-- end modal-content -->
-				</div><!-- end modal-dialog -->
-			</div><!-- end myModal -->
-			</div>
-		</div>
-	</div> <!-- end of main -->
+							<div class="modal-footer">
+								<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+								<button class="btn btn-primary" type="button">Save changes</button>
+							</div><!-- end modal-footer -->
+						</div><!-- end modal-content -->
+					</div><!-- end modal-dialog -->
+				</div><!-- end myModal -->
+				</div><!-- end col-sm-6 -->
+		</div><!-- end row -->
+	</div> <!-- end main -->
 	<footer>
 	<div class="container">
 		<div class="row">
-			<p class="col-xs-3">This site created by <a href="#">Anish Dhamodaran</a>.</p>
-			<div id="social" class="col-xs-9 pull-right">
-				<ul class="pull-right">
+			<p class="col-xs-12 col-sm-5" id="credit"> &copy; This site created by <a href="#">Anish Dhamodaran</a>.</p>
+			<div id="social" class="col-xs-12 col-sm-7">
+				<ul>
 					<li><a href="#"><img src="assets/youtube.png"</a></li>
 					<li><a href="#"><img src="assets/twitter.png"</a></li>
 					<li><a href="#"><img src="assets/pinterest.png"</a></li>
 					<li><a href="#"><img src="assets/gplus.png"</a></li>
 					<li><a href="#"><img src="assets/fb.png"</a></li>
 				</ul>
-			</div>
-		</div>
-	</div>
+			</div><!-- end social -->
+		</div><!-- end row -->
+	</div><!-- container -->
 </footer>
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>

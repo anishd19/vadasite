@@ -37,8 +37,18 @@ a:hover{
 	!padding: 10px;
 }
 
+.panel {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+}
+
 .panel img{
 	width: 100%;
+}
+
+.panel-title {
+	text-align: center;
 }
 
 h3{
@@ -71,6 +81,37 @@ li{
 	display: inline;
 }
 
+#buzz {
+	min-height:500px;
+}
+
+.embed {
+	height: 600px;
+}
+
+.well {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.well p {
+	margin: 0 0 3px 0;
+	color: blue;
+}
+
+.well p span {
+	color: orange;
+}
+
+.btn {
+	margin-bottom: 5px;
+}
+
+
+#social ul {
+	float: right;
+}
+
 #social img {
 	width: 40px;
 }
@@ -86,24 +127,40 @@ textarea {
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+	
+	#social, #credit {
+		text-align: center;
+	}
+	
+	#social ul {
+		float: none;
+	}
 
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 	
-	#myCarousel .item { height: 310px; }
+	#myCarousel .item { 
+		height: 310px; 
+	}
 	
 	.carousel-caption {
 		font-size: 16px;
 	}
-
+	
+	.panel img{
+		width: 60%;
 	}
+	
+}
 
 /* Large desktop */
 @media (min-width: 1200px) {
 
-	#myCarousel .item { height: 500px; }
-
+	#myCarousel .item { 
+		height: 500px; 
+	}
+	
 }
 
